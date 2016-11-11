@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lobster');
+
+#center {
+    margin: auto;
+    max-width: 960px;
+    min-width: 889px;
+    }
+
+a {
+    text-decoration: none;
+    color: #fd4719;
+    }
+
+a:visited {
+    color: #fb7d28;
+    }
+
+a:hover {
+    background-color: #fd4719;
+    color:white;
+    }
+
+a:active {
+    color:#fb7d28;
+    }
+
+h1 {
+    font-family: Lobster, sans-serif;
+    margin-bottom: -15px;
+    margin-left: 12px;
+    }
+
+h2 {
+    font-family: Lobster, sans-serif;
+    font-size: 27px;
+    }
+
+h3 {
+    font-family: Fjalla One,monospace;
+    }
+
+h4 {
+    font-family: Lobster, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+    }
+
+p {
+    font-family: Fjalla One, monospace;
+    font-size: 15px;
+    }
+
+ul {
+    position:relative;
+    left: -20px;
+    line-height: 23px;
+    list-style-type: disc;
+    font-family: Fjalla One, monospace;
+    font-size: 15px;
+    }
+
+img {
+    display: inline;
+    float:left;
+    margin-right:20px;
+    margin-left: 3px;
+    width:25%;
+    margin-top: 25px;
+    border: 3px solid #d8d8d8;
+    }
+
+#designer {
+    font-size: 15px;
+    margin-bottom: -10px;
+    margin-top:10px;
+    color:#8d8d8d;
+    }
+
+nav li {
+    display:inline;
+    float: left;
+    margin-right:1px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-family: fjalla One, monospace;
+    font-size: 18px;
+    }
+
+address {
+    color:#8d8d8d;
+}
+
+#contact {
+    margin-top: 80px;
+    line-height: 10px;
+    }
+
+#profile p {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    border-bottom: 2px solid #d8d8d8;
+    padding-bottom: 30px;
+    }
+
+#coral {
+    display:inline;
+    position: relative;
+    bottom: 38px;
+    left: 150px;
+    font-size: 13px;
+    color:#8d8d8d;
+    }
+
+#experience {
+    border-bottom: 2px solid #d8d8d8;
+    padding-bottom: 10px;
+    }
+
+#experience p {
+    line-height: 15px;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    }
+
+.title {
+    margin-bottom: -15px;
+    margin-top: 30px;
+    }
+
+.date {
+    color:#8d8d8d;
+    font-size: 13px;
+    display:inline;
+    position: relative;
+    top:-22px;
+    }
+
+.description {
+    display: inline;
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+    }
+
+#education {
+    display: inline-block;
+    width: 320px;
+    float:right;
+    margin-left: 60px;
+    }
+
+#education ul {
+    top: -8px;
+    }
+
+em {
+    font-size: 16px;
+    margin-right: 8px;
+    color:#8d8d8d;
+    }
+
+#stuff {
+    margin-top: -40px;
+    margin-left: 20px;
+    }
+
+#stuff p {
+    line-height: 12px;
+    }
+
+#software {
+    border-bottom: 2px solid #d8d8d8;
+    padding-bottom: 26px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    }
+
+table {
+    border: none;
+    margin-top:20px;
+    }
+
+td {
+   width: 120px;
+    font-family: Fjalla One, monospace;
+    font-size: 17px;
+    }
+
+#numbers td {
+    color: #fd4719;
+    font-size: 20px;
+    position: relative;
+    left: 1px;
+    }
+
+.grey {
+    color: #d8d8d8;
+    display: inline-block;
+    }
+
+#service {
+    display: inline-block;
+    float:right;
+    width: 320px;
+}
+
+#float {
+    float:left;
+}
+
+#qualities {
+    display:inline-block;
+    width: 320px;
+    float: left;
+    }
+
+#hobbies {
+    display: inline-block;
+    float: right;
+    width: 320px;
+    }
+
+#return {
+    float:right;
+    font-size: 17px;
+    position:relative;
+    bottom: 35px;
+    right:20px;
+}
+
+
+
+
