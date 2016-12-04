@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 #center {
     margin: auto;
@@ -6,176 +6,152 @@
     min-width: 960px;
     }
 
-a {
-    text-decoration: none;
-    color: #fd4719;
-    }
-
-a:visited {
-    color: #fb7d28;
-    }
-
-a:hover {
-    background-color: #fd4719;
-    color:white;
-    }
-
-a:active {
-    color:#fb7d28;
-    }
-
-h1 {
-    font-family: Lobster, sans-serif;
-    margin-bottom: -15px;
-    margin-left: 12px;
-    }
-
-h2 {
-    font-family: Lobster, sans-serif;
-    font-size: 27px;
-    }
-
-h3 {
-    font-family: Fjalla One,monospace;
-    }
-
-h4 {
-    font-family: Lobster, sans-serif;
-    font-size: 20px;
-    position: relative;
-    top: 15px;
-    }
-
-p {
-    font-family: Fjalla One, monospace;
-    font-size: 15px;
-    }
-
-ul {
-    position:relative;
-    left: -20px;
-    line-height: 23px;
-    list-style-type: disc;
-    font-family: Fjalla One, monospace;
-    font-size: 15px;
-    }
-
-img {
-    display: inline;
-    float:left;
-    margin-right:20px;
-    margin-left: 3px;
-    width:25%;
-    margin-top: 25px;
-    border: 3px solid #d8d8d8;
-    }
-
-#designer {
-    font-size: 15px;
-    margin-bottom: -10px;
-    margin-top:10px;
-    color:#8d8d8d;
-    }
-
-nav li {
-    display:inline;
-    float: left;
-    margin-right:1px;
-    margin-left: 20px;
-    margin-top: 12px;
-    font-family: fjalla One, monospace;
-    font-size: 18px;
-    }
-
-address {
-    color:#8d8d8d;
+header img {
+    display: inline-block;
+    margin-left: -20px;
 }
 
-#contact {
-    margin-top: 80px;
-    line-height: 10px;
-    }
-
-#profile p {
-    margin-top: -15px;
-    margin-bottom: -10px;
-    border-bottom: 2px solid #d8d8d8;
-    padding-bottom: 30px;
-    }
-
-#coral {
-    display:inline;
-    position: relative;
-    bottom: 38px;
-    left: 150px;
-    font-size: 13px;
-    color:#8d8d8d;
-    }
-
-#experience {
-    border-bottom: 2px solid #d8d8d8;
-    padding-bottom: 10px;
-    }
-
-#experience p {
-    line-height: 15px;
-    position: relative;
-    left: 20px;
-    bottom: 10px;
-    }
-
-.title {
-    margin-bottom: -15px;
-    margin-top: 30px;
-    }
-
-.date {
-    color:#8d8d8d;
-    font-size: 13px;
-    display:inline;
-    position: relative;
-    top:-22px;
-    }
-
-.description {
-    display: inline;
-    font-size: 15px;
-    position: relative;
-    top: -20px;
-    }
-
-#education {
+h1 {
+    font-family: 'Cutive Mono', monospace;
     display: inline-block;
-    width: 320px;
-    float:right;
-    margin-left: 60px;
-    }
+    position: relative;
+    left:-20px;
+}
 
-#education ul {
-    top: -8px;
-    }
+h2 {
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+}
+
+h3 {
+    font-family: 'Cutive Mono', monospace;
+    position: relative;
+    top:-15px;
+}
+
+h4 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 17px;
+    border: 1px solid black;
+    background-color: black;
+    color:white;
+    padding-left: 5px;
+}
+
+h6 {
+    font-family: 'Cutive Mono',monospace;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 17px;
+}
 
 em {
-    font-size: 16px;
-    margin-right: 8px;
-    color:#8d8d8d;
-    }
+    font-style: normal;
+    position: relative;
+    left: -20px;
+}
 
-#stuff {
-    margin-top: -40px;
-    margin-left: 20px;
-    }
+p {
+    text-align: center;
+    font-family: 'Cutive Mono', monospace;
+    margin-top: -15px;
+}
 
-#stuff p {
-    line-height: 12px;
-    }
+p a {
+    color: #827e7f;
+    text-decoration: underline;
+}
+header nav li{
+    font-family: 'Cutive Mono', monospace;
+    display:inline;
+    margin-left: 10px;
+}
 
-#software {
-    border-bottom: 2px solid #d8d8d8;
-    padding-bottom: 26px;
-    margin-top: -5px;
-    margin-bottom: -5px;
-    }
+nav {
+    display: inline-block;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#about {
+    width: 430px;
+    display:inline-block;
+    margin-top: 20px;
+}
+
+#writing {
+    width: 430px;
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+}
+
+#who img {
+    margin-left: 85px;
+    margin-bottom: 33px;
+}
+
+#urban img {
+    margin-left: 85px;
+    margin-bottom: 33px;
+}
+
+#tour img {
+    margin-left: 85px;
+    margin-bottom: 33px;
+}
+
+#perrier img {
+    margin-left: 85px;
+    margin-bottom: 33px;
+}
+
+#pink {
+    position:relative;
+    left:90px;
+}
+
+#writing #description {
+    text-align: left;
+    border-bottom: solid 1px black;
+    padding-bottom: 10px;
+}
+
+#writing p {
+    text-align: left;
+}
+
+a:hover {
+    background-color: darkgray;
+    color:white;
+}
+
+#front a:hover {
+    opacity: 0.6;
+}
+
+#front img {
+    margin-bottom: 20px;
+}
+
+#experience p {
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+#education p {
+    margin-left: 30px;
+}
 
 table {
     border: none;
@@ -195,41 +171,39 @@ td {
     left: 1px;
     }
 
+#experience li {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 16px;
+    font-family: 'Cutive Mono', monospace;
+}
+
+#experience ul {
+    margin-top: -20px;
+}
+
+.rectangle {
+    margin-bottom: 33px;
+    margin-left: 33px;
+}
+.right {
+    display: inline-block;
+    float:right;
+    margin-right:33px;
+}
+
+.left {
+    margin-left: 33px;
+    margin-bottom: 33px;
+}
+
 .grey {
-    color: #d8d8d8;
-    display: inline-block;
-    }
-
-#service {
-    display: inline-block;
-    float:right;
-    width: 320px;
+    background-color: #efefef;
+    margin-bottom: 50px;
+    margin-top: 40px;
 }
 
-#float {
-    float:left;
+.grey p {
+    position: relative;
+    top:-11px;
 }
-
-#qualities {
-    display:inline-block;
-    width: 320px;
-    float: left;
-    }
-
-#hobbies {
-    display: inline-block;
-    float: right;
-    width: 320px;
-    }
-
-#return {
-    float:right;
-    font-size: 17px;
-    position:relative;
-    bottom: 35px;
-    right:20px;
-}
-
-
-
-
