@@ -6,10 +6,6 @@
     min-width: 960px;
     }
 
-header img {
-    display: inline-block;
-    margin-left: -20px;
-}
 
 h1 {
     font-family: 'Cutive Mono', monospace;
@@ -157,6 +153,7 @@ a:hover {
 
 #front a:hover {
     opacity: 0.6;
+    background-color: white;
 }
 
 #front img {
