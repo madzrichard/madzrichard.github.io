@@ -12,23 +12,37 @@ h1 {
     display: inline-block;
     position: relative;
     left:-20px;
+    font-weight: normal;
+}
+
+iframe {
+    display: none;
+}
+
+input {
+    font-size: 25px;
+    margin-left: 170px;
+    margin-top: 20px;
 }
 
 h2 {
     text-align: center;
     font-family: 'Cutive Mono', monospace;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Cutive Mono', monospace;
     position: relative;
     top:-15px;
+    font-weight: normal;
 }
 
 h4 {
     font-family: 'Cutive Mono', monospace;
     font-size: 25px;
     text-align: center;
+    font-weight: normal;
 }
 
 h5 {
@@ -38,6 +52,7 @@ h5 {
     background-color: black;
     color:white;
     padding-left: 5px;
+    font-weight:normal;
 }
 
 h6 {
@@ -45,6 +60,7 @@ h6 {
     font-size: 18px;
     margin-top: -20px;
     margin-bottom: 17px;
+    font-weight: normal;
 }
 
 em {
@@ -106,9 +122,12 @@ a {
     text-align: center;
     margin-top:60px;
     margin-bottom: 40px;
+/*    margin-left: 300px;*/
+/*    margin-right: 300px;*/
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 
 #contact a {
