@@ -125,12 +125,11 @@ a {
 
 #contact h3{
     text-align: center;
-    margin-top:70px;
-    margin-bottom: 50px;
+    margin-top:60px;
+    margin-bottom: 40px;
     background-color: white;
     padding-top: 12px;
     padding-bottom: 12px;
-    
 }
 
 #contact a {
@@ -138,7 +137,7 @@ a {
 }
 
 #graffiti {
-    background-image: url(img/graffiti2copy.jpg);
+    background-image: url(img/graffiti2.jpg);
     padding-top: 55px;
     padding-bottom: 45px;
 }
@@ -180,6 +179,10 @@ a:hover {
 
 #front img {
     margin-bottom: 20px;
+}
+
+#front {
+    margin-top: 15px;
 }
 
 #experience p {
