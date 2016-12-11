@@ -4,6 +4,7 @@
     margin: auto;
     max-width: 960px;
     min-width: 960px;
+    margin-bottom: 100px;
     }
 
 
@@ -85,6 +86,10 @@ header nav li{
     margin-left: 10px;
 }
 
+header img {
+    margin-left: -20px;
+}
+
 nav {
     display: inline-block;
     float: right;
@@ -120,13 +125,11 @@ a {
 
 #contact h3{
     text-align: center;
-    margin-top:60px;
-    margin-bottom: 40px;
-/*    margin-left: 300px;*/
-/*    margin-right: 300px;*/
+    margin-top:70px;
+    margin-bottom: 50px;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     
 }
 
@@ -135,7 +138,7 @@ a {
 }
 
 #graffiti {
-    background-image: url(img/graffiti2.jpg);
+    background-image: url(img/graffiti2copy.jpg);
     padding-top: 55px;
     padding-bottom: 45px;
 }
