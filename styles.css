@@ -252,3 +252,39 @@ td {
     position: relative;
     top:-11px;
 }
+
+
+/*this is for logo animation*/
+.explanation {
+	display: inline-block;
+	position: relative;
+	left:410px;
+	top:100px;
+}
+
+p.heading {
+	display:block;
+	position: relative;
+	left:180px;
+	top:100px;
+	margin-top: -50px;
+	padding-bottom: 20px;
+}
+
+.description {
+	position: relative;
+	left:440px;
+	top:100px;
+	text-align:left;
+	margin-bottom: 40px;
+	width: 500px;
+    font-family: 'Cutive Mono', monospace;
+    margin-top: -15px;
+}
+
+#defaultCanvas0 {
+	position: fixed;
+	top:0;
+	left:0;
+}
+/*end of logo animation*/
