@@ -265,10 +265,12 @@ td {
 p.heading {
 	display:block;
 	position: relative;
-	left:180px;
+	left:400px;
 	top:100px;
 	margin-top: -50px;
 	padding-bottom: 20px;
+	text-align: left;
+	font-size: 20px;
 }
 
 .description {
@@ -277,7 +279,7 @@ p.heading {
 	top:100px;
 	text-align:left;
 	margin-bottom: 40px;
-	width: 500px;
+	width: 50%;
     font-family: 'Cutive Mono', monospace;
     margin-top: -15px;
 }
